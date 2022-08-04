@@ -1,0 +1,34 @@
+.projects {
+    /* background: linear-gradient(180deg, #B5FFFC 20%, #FFDEE9 100%); */
+    background-image: linear-gradient(0, #b3eef2 0%, #b7b4f4 100%);
+
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.projects span {
+    color: #46364A;
+}
+
+.cardContainer {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 4vh;
+}
+
+.heading span {
+    color: #46364A;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

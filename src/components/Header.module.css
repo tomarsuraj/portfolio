@@ -1,0 +1,14 @@
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #cfd9dfcf;
+    z-index: 4;
+
+    padding-top: 12px;
+    padding-left: 10vw;
+    position: -webkit-sticky;
+    color: #000;
+    position: sticky;
+    top: 0;
+
+}

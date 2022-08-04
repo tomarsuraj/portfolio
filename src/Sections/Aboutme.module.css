@@ -1,0 +1,108 @@
+.aboutme {
+    background-image: linear-gradient(180deg, #cfd9df 3%, #b6b3f2 60%);
+    flex-direction: row;
+}
+
+.left {
+    width: 20%;
+    padding: 0px 5% 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+
+}
+
+.left img {
+    max-width: 90%;
+    max-height: 90%;
+
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right h1 {
+    text-shadow: 4px 40px #666666;
+    margin-bottom: 40px;
+    transition: text-shadow 1s;
+}
+
+.right h1:hover {
+    text-shadow: 14px 40px #666666;
+}
+
+.dataTable {
+    font-size: 2rem;
+    width: 90%;
+}
+
+.dataRow {
+    padding: 6px 0px 6px;
+    transition: transform 0.8s;
+}
+
+.dataRow:hover {
+    transform: scale(1.1);
+}
+
+.dataTitle {
+    padding-right: 18px;
+    font-weight: 800;
+}
+
+.data {
+    color: #666666;
+}
+
+.data a {
+    color: #666666;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .title {
+        text-shadow: 4px 40px #666666;
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aboutme {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .left {
+        width: 80%;
+        height: fit-content;
+    }
+
+    .left img {
+        width: 90%;
+        height: auto;
+    }
+
+    .right {
+        width: 80%;
+        height: fit-content;
+
+    }
+
+    .right h1 {
+        text-shadow: 4px 40px #666666;
+        font-size: 4rem;
+    }
+
+    .dataTable {
+        font-size: 1.5rem;
+    }
+
+
+
+}

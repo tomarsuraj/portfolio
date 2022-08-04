@@ -1,0 +1,90 @@
+.skills {
+    background-image: linear-gradient(0deg, #08085d 0%, #615e9a 31%, #b3eef2 80%);
+    padding-bottom: 20vh;
+}
+
+.skills h2 {
+    color: #06060a;
+}
+
+.selectorContainer {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 4vh;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-image: linear-gradient(180deg, #cfd9df 3%, #b6b3f2 60%);
+    width: fit-content;
+    height: fit-content;
+    padding: 2vh 20px 2vh;
+    margin-top: 1vh;
+    color: #0f0202;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-radius: 4rem;
+    border: none;
+    transition: transform 1s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.selected {
+    background-image: radial-gradient(circle 702px at 11% 74.1%, rgba(116, 126, 233, 1) 0%, rgba(95, 68, 219, 1) 90%);
+    color: #cfd9df;
+    font-weight: 800;
+}
+
+.skillConatiner {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+}
+
+
+
+@media screen and (min-height:1080px) {
+    .skills {
+        padding-bottom: 8vh;
+    }
+
+}
+
+
+@media (max-width: 962px) {
+    .selectorContainer {
+        width: 80%;
+    }
+
+
+
+    .button {
+        font-size: 1.5rem;
+        padding: 1.5vh 14px 1.5vh;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .selectorContainer {
+        width: 90%;
+    }
+
+    .skillConatiner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        font-size: 1.2rem;
+        padding: 1vh 8px 1vh;
+    }
+
+}

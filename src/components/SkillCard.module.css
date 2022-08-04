@@ -1,0 +1,116 @@
+.skillCard {
+    display: flex;
+    width: 20%;
+    height: 40vh;
+    margin: 2vh 6px 2vh;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b3eef250;
+    border-radius: 6%;
+    box-shadow: #32325d40 0px 10px 20px -5px, #0000004d 0px 6px 8px -8px;
+
+
+}
+
+.skillCard h5 {
+    font-size: 2rem;
+    margin: 0px;
+    text-align: center;
+}
+
+.imgContainer {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+.imgContainer img {
+    max-width: 90%;
+    max-height: 90%;
+
+}
+
+.rating {
+    height: 10%;
+    width: 90%;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 2vh;
+}
+
+.rating1 {
+
+    background: linear-gradient(90deg, #08085d 20%, #ffffff43 20%);
+}
+
+.rating2 {
+
+    background: linear-gradient(90deg, #08085d 40%, #ffffff43 40%);
+}
+
+.rating3 {
+
+    background: linear-gradient(90deg, #08085d 60%, #ffffff43 60%);
+}
+
+.rating4 {
+
+    background: linear-gradient(90deg, #08085d 80%, #ffffff43 80%);
+}
+
+.rating5 {
+
+    background: linear-gradient(90deg, #08085d 100%, #ffffff43 0%);
+}
+
+@media only screen and (min-height: 900px) {
+    .skillCard {
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-height: 1200px) {
+    .skillCard {
+        height: 14vh;
+    }
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .skillCard {
+        width: 30%;
+    }
+
+
+}
+
+@media only screen and (max-width: 800px) {
+    .skillCard {
+        width: 50%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .imgContainer {
+        width: 60%;
+        height: fit-content;
+    }
+
+    .rating {
+        height: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .skillCard {
+        width: 80%;
+        height: fit-content;
+    }
+}
